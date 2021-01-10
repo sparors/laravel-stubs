@@ -1,0 +1,45 @@
+{
+    "name": "sparors/laravel-stubs",
+    "description": "Laravel stubs with comments removed and minor tweaks",
+    "keywords": [
+        "laravel",
+        "stubs",
+        "laravel-stubs",
+        "sparors"
+    ],
+    "homepage": "https://github.com/sparors/laravel-stubs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac Sai",
+            "email": "isaacsai030@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "laravel/framework": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sparors\\Stubs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sparors\\Stubs\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sparors\\Stubs\\StubsServiceProvider"
+            ]
+        }
+    }
+}
