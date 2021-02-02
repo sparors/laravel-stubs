@@ -30,7 +30,8 @@ vendor/bin/phpunit tests --colors
 MIT. Please see the [license file](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/sparors/laravel-stubs.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/sparors/laravel-stubs/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/com/sparors/laravel-stubs?style=flat-square
+
 
 [link-packagist]: https://packagist.org/packages/sparors/laravel-stubs
 [link-travis]: https://travis-ci.com/sparors/laravel-stubs
