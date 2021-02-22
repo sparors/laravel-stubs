@@ -8,7 +8,9 @@ use Tests\TestCase;
 
 class {{ class }} extends TestCase
 {
-    public function testExample()
+    use RefreshDatabase;
+
+    public function test_example()
     {
         $response = $this->get('/');
 
